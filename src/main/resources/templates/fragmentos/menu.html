@@ -33,7 +33,7 @@
           
           <div sec:authorize="isAuthenticated()">
 		<span class="text-light">Bienvenido</span>&nbsp;<span class="text-light" sec:authentication="name"></span>&nbsp;
-		<a class="btn btn-primary" style="background-color: white; color: gray;" th:href="@{/logout}">Salir</a>
+		<a class="btn btn-primary" th:href="@{/logout}">Salir</a>
 	</div> 
         </div>
         
